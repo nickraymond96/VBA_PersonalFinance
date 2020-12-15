@@ -24,6 +24,7 @@ Public Sub navyFederalGrab()
 
 'https://www.exceltrainingvideos.com/how-to-login-automatically-into-website-using-excel-vba/   (Logon Tutorial)
 'https://www.youtube.com/watch?v=G05TrN7nt6k (General VBA Tutorial)
+'https://codingislove.com/parse-html-in-excel-vba/
 
 Dim HTMLDoc As HtmlDocument
 Dim MyBrowser As InternetExplorer
