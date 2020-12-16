@@ -27,7 +27,7 @@ Loop Until MyBrowser.readyState = READYSTATE_COMPLETE
 Set HTMLDoc = MyBrowser.document
     
     HTMLDoc.getElementById("user").Value = "2751149"
-    HTMLDoc.getElementById("password").Value = "Football55!"
+    HTMLDoc.getElementById("password").Value = "+++++++++"
     HTMLDoc.getElementsByClassName("btn btn_sm toolbar__signin-btn")(0).Click
     
     
