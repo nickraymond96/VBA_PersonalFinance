@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module1"
+Attribute VB_Name = "Module11"
 
 Public Sub navyFederalGrab()
 
@@ -26,8 +26,8 @@ Loop Until MyBrowser.readyState = READYSTATE_COMPLETE
 
 Set HTMLDoc = MyBrowser.document
     
-    HTMLDoc.getElementById("user").Value = "2751149"
-    HTMLDoc.getElementById("password").Value = "+++++++++"
+    HTMLDoc.getElementById("user").Value = NFCU_user
+    HTMLDoc.getElementById("password").Value = NFCU_pass
     HTMLDoc.getElementsByClassName("btn btn_sm toolbar__signin-btn")(0).Click
     
     
